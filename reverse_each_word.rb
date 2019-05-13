@@ -1,5 +1,5 @@
 
 
 def reverse_each_word(sentence1="Hello there, and how are you?")
-  sentence1.each.map {|sentence1| puts "#{sentence1}.reverse"}
+  sentence1.reverse_each {|sentence1| puts "#{sentence1}}
   end
