@@ -1,6 +1,8 @@
 
 
 def reverse_each_word(sentence1)
-  sentence1.length.times { reverse << sentence1.pop}
-return sentence1
+   sentence1.split.collect do |word|
+    word.reverse
+  end
+  .join(" ")
 end
